@@ -23,7 +23,7 @@ function add2(n) {
 
 var funkyFunction = function() {
 
-  return function innerScope() {
+  return function() {
     return "FUNKY!";
   };
 
